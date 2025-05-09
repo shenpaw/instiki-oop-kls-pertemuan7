@@ -2,24 +2,22 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package pertemuan701;
-import java.util.Scanner;
-/*
+package pertemuan702;
+
+/**
  *
- * @author Shendy Aulia Mursyd
- * TGL 09 Mei 2025 
+ * @author PC-A-30
  */
-public class Pertemuan701 {
+public class Pertemuan702 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       salam psn = new salam();
-       psn.tulispesan();
-       psn.tulispesan("ini cara panggil dengan parameter txt1");
-       
+        persegi ps =new persegi();
+        ps.setpanjang(8);
+        ps.setlebar(5);
+        ps.hitungluas();
     }
-    
     
 }

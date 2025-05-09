@@ -17,4 +17,5 @@ public class salam {
     public void tulispesan(String txt1){
         System.out.println(txt1);
     }
+    
 }
